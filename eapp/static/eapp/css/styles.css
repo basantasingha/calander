@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    width: 100%;
+    background-color:#050 ;
+    color: #f99;
+}
+
+nav div a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 25px;
+}
+div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Card section css */
+
+.card-box{
+    width: 200px;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #0f8;
+    float: left;
+}
+
+#add-card{
+    background-color: #1007;
+    border: none;
+    width:100%;
+    padding: 10px 20px;
+}
+.card-img{
+    width:200px;
+    height: 250px;
+}
+
+.added_by{
+    float: right;
+}
+
+/* Create Product section Css */
+#createp{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    background-color: rgb(20, 100, 255);
+    margin-left: 500px;
+}

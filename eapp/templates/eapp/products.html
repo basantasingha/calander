@@ -1,0 +1,22 @@
+{% extends 'eapp/base.html' %}
+
+{% block title %}<title>Products</title>{% endblock title %}
+
+{% block content %}
+<h1>Products</h1>
+
+{% for products in product %}
+<div class="card-box">
+    <img src="{{products.image.url}}" alt="Denim Jeans"class="card-img">
+    <h2>{{products.product_title}}</h2>
+    <p class="price">{{products.category}}</p>
+    <p class="added_by">{{products.added_by}}</p>
+    <p class="created_at">{{products.created_at}}</p>
+    <p class="price">RS: {{products.price}}</p>
+    <p>{{products.discription}}</p>
+    <button id="add-card">Add to Cart</button>
+</div>
+
+{% endfor %}
+
+{% endblock content %}
